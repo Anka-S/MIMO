@@ -34,8 +34,8 @@ if os.path.isfile("env.py"):
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['8000-vishalchapa-mimo-kq1n7j7avhq.ws.codeinstitute-ide.net', '.herokuapp.com', ".codeinstitute-ide.net"]
-CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net', 'https://*.herokuapp.com']
+ALLOWED_HOSTS = ['8000-vishalchapa-mimo-kq1n7j7avhq.ws.codeinstitute-ide.net', '.herokuapp.com', ".codeinstitute-ide.net", "localhost", ".devtunnels.ms", "127.0.0.1"]
+CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net', 'https://*.herokuapp.com', 'https://*.devtunnels.ms/']
 
 
 # Application definition
